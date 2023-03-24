@@ -6,12 +6,16 @@ public class Main {
         Producto jabonEnPolvo = new Producto("jabón en polvo", "ADS490", 40);
         Producto esponjas = new Producto("esponjas", "ADS402", 10);
         Producto chocolates = new Producto("chocolates","TYU948",100);
-
-        Producto[] productosCarrito = {jabonEnPolvo,esponjas,chocolates};
         Descuento descuento = new DescuentoPorcentajeConTope(20, 10);
-
         Carrito carrito = new Carrito(persona, descuento);
-        carrito.setProductos(productosCarrito);
-        System.out.println(carrito.precio());
+
+        try {
+            carrito.agregarProducto(jabonEnPolvo);
+            carrito.agregarProducto(esponjas);
+            carrito.agregarProducto(chocolates);
+            System.out.println(carrito.precio());
+        } catch (PrecioInvalidoException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }

@@ -1,22 +1,24 @@
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Carrito {
     // Atributos
     private Persona persona;
-    private Producto[] productos;
+    private List<Producto> productos;
     private LocalDate fechaCompra;
     private Descuento descuento;
 
     // Constructor
     public Carrito(Persona persona, Descuento descuento) {
         this.persona = persona;
-        this.productos = new Producto[3];
+        this.productos = new ArrayList<>();
         fechaCompra = LocalDate.now();
         this.descuento = descuento;
     }
 
     // Métodos
-    public double precio(){
+    public double precio() throws PrecioInvalidoException {
         double base = 0;
         for (Producto producto:productos) {
             base += producto.getPrecio();
@@ -32,12 +34,16 @@ public class Carrito {
         this.persona = persona;
     }
 
-    public Producto[] getProductos() {
+    public List<Producto> getProductos() {
         return productos;
     }
 
-    public void setProductos(Producto[] productos) {
-        this.productos = productos;
+    public void agregarProducto(Producto producto) {
+        this.productos.add(producto);
+    }
+
+    public void quitarProducto(Producto producto) {
+        this.productos.remove(producto);
     }
 
     public LocalDate getFechaCompra() {
