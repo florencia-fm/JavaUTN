@@ -1,0 +1,27 @@
+[ {
+  "producto" : {
+    "nombre" : "Azucar",
+    "peso" : [ 12.0, "kg" ],
+    "precio" : 700.0
+  },
+  "descuento" : {
+    "tipo" : "%",
+    "cantidad" : 0.3,
+    "tope" : 100.0
+  },
+  "fechaDesde" : "2023-02-23",
+  "fechaHasta" : "2023-03-23"
+}, {
+  "producto" : {
+    "nombre" : "Cafe",
+    "peso" : [ 0.5, "kg" ],
+    "precio" : 1400.0
+  },
+  "descuento" : {
+    "tipo" : "%",
+    "cantidad" : 0.2,
+    "tope" : 200.0
+  },
+  "fechaDesde" : "2023-02-23",
+  "fechaHasta" : "2023-03-23"
+} ]

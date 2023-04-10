@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="ejClase8:jar" />
-    </artifacts-to-build>
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb15e891-6af6-4c05-8207-428d80821d44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Clase11/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase11/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase11/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase11/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase11/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase11/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase11/book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase11/books.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase11/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase11/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase11/src/main/java/org/example/Producto.java" afterDir="false" />
+    <list default="true" id="7fea7abd-3494-4fec-8d17-93c08546daf4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Producto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ejClase11/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ejClase11/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ejClase11/.idea/jarRepositories.xml" afterDir="false" />
@@ -28,8 +23,6 @@
       <change afterPath="$PROJECT_DIR$/../ejClase11/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ejClase11/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ejClase11/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejClase11/producto.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejClase11/productos.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ejClase11/src/main/java/org/example/Descuento.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ejClase11/src/main/java/org/example/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ejClase11/src/main/java/org/example/Oferta.java" afterDir="false" />
@@ -37,7 +30,7 @@
       <change afterPath="$PROJECT_DIR$/../ejClase11/src/main/resources/ejemploOfertas.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ejClase11/target/classes/ejemploOfertas.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ejClase11/target/classes/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejClase8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejClase8/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +57,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2NWggfox27p7q0GytAZLeatytiE" />
+  <component name="ProjectId" id="2NgsZiVOjaJhm9M6RJ1Da18Qhkg" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -72,26 +65,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/fmigu/My Private Documents/JavaUTN/ejClase7&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/fmigu/My Private Documents/JavaUTN/ejClase8",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eb15e891-6af6-4c05-8207-428d80821d44" name="Changes" comment="" />
-      <created>1679785366146</created>
+      <changelist id="7fea7abd-3494-4fec-8d17-93c08546daf4" name="Changes" comment="" />
+      <created>1680097120142</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679785366146</updated>
+      <updated>1680097120142</updated>
     </task>
     <servers />
   </component>
